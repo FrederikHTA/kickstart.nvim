@@ -25,11 +25,14 @@ vim.keymap.set('n', '<C-d>', '<C-d>zzzv')
 vim.keymap.set('n', '<C-f>', '<C-f>zzzv')
 vim.keymap.set('n', '<C-b>', '<C-b>zzzv')
 
+-- Git
+vim.keymap.set('n', '<leader>gf', '<cmd>G fetch')
+
 -- paste and keep in black hole register
 vim.keymap.set('v', '<leader>p', '"_dP')
 
 -- nvim-tree
-vim.keymap.set('n', '<C-n>', '<cmd>Neotree filesystem toggle left<cr>', opts)
+vim.keymap.set('n', '<leader>n', '<cmd>Neotree filesystem toggle left<cr>', opts)
 
 -- save
 vim.keymap.set('n', '<leader>w', '<cmd>silent write<cr>', opts)

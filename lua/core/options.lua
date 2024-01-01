@@ -2,7 +2,8 @@
 -- NOTE: You can change these options as you wish!
 
 -- Set highlight on search
-vim.o.hlsearch = false
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
 
 -- Make line numbers default
 vim.wo.number = true
@@ -11,8 +12,10 @@ vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
+
 -- Enable mouse mode
 vim.o.mouse = 'a'
+--vim.opt.guicursor = ""
 
 -- Sync clipboard between OS and Neovim.
 --  Remove this option if you want your OS clipboard to remain independent.

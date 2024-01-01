@@ -1,3 +1,5 @@
+-- [[ Basic Keymaps ]]
+-- Keymaps for better default experience
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
 
 -- Remap for dealing with word wrap

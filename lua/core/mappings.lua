@@ -31,6 +31,7 @@ vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
 vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
 
 -- Git
+vim.keymap.set('n', '<leader>gs', vim.cmd.Git)
 vim.keymap.set('n', '<leader>gf', '<cmd>G fetch<cr>')
 vim.keymap.set('n', '<leader>gp', '<cmd>G push<cr>')
 vim.keymap.set('n', '<leader>gu', '<cmd>G pull<cr>')

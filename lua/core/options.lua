@@ -1,4 +1,3 @@
--- [[ Setting options ]]
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
@@ -8,13 +7,16 @@ vim.o.hlsearch = false
 -- Make line numbers default
 vim.wo.number = true
 vim.wo.relativenumber = true
-
+vim.opt.scrolloff = 8
+vim.opt.sidescrolloff = 8
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
 -- Enable mouse mode
 vim.o.mouse = 'a'
 
 -- Sync clipboard between OS and Neovim.
 --  Remove this option if you want your OS clipboard to remain independent.
---  See `:help 'clipboard'`
+--  See `:help 'clipboard'--[[ `
 vim.o.clipboard = 'unnamedplus'
 
 -- Enable break indent

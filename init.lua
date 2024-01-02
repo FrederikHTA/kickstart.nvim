@@ -17,5 +17,5 @@ require('mason-lspconfig').setup()
 
 -- Setup neovim lua configuration
 require('neodev').setup()
-require('config.lsp_configuration')
+require('config.lsp-configuration')
 require('config.nvim-cmp')
